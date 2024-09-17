@@ -1,13 +1,10 @@
-.pokemon-cards{
+.pokemon-cards {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
-
-
-
-.Game-over{
+.Game-over {
   display: flex;
   color: black;
   border-radius: 10px;
@@ -16,19 +13,15 @@
   padding: 50px;
   text-align: center;
   justify-content: center;
-  background-color:#FFFDD0;
+  background-color: #FFFDD0;
 }
 
-
-.Game-over h2,h3 {
-font-family: "Roboto Mono", monospace;
-font-optical-sizing: auto;
-font-weight: 300;
-font-style: normal;
+.Game-over h2, h3 {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
-
-
-
 
 .Game-over {
   display: grid;
@@ -86,31 +79,23 @@ font-style: normal;
   border-radius: 5px;
 }
 
-
-/* ---------------------------------------------------- */
-
-
-.pokemon-cards button{
+.pokemon-cards button {
   margin: 20px;
   cursor: pointer;
   border-radius: 10px;
   border-color: transparent;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
-  transition: trasnform 0.3s ease;
-
+  transition: transform 0.3s ease;
 }
-
 
 .pokemon-cards button:hover {
-  transform: translate(10px,10px);
+  transform: translate(10px, 10px);
 }
-
-
-
 
 @media only screen and (max-width: 600px) {
   .pokemon-cards {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 
   .pictures img {
@@ -120,5 +105,42 @@ font-style: normal;
 
   .pictures p {
     font-size: 0.8rem;
+  }
+
+  .Game-over {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .Game-over button {
+    font-size: 24px;
+    padding: 10px 15px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .pokemon-cards {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .pictures img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .pictures p {
+    font-size: 0.7rem;
+  }
+
+  .Game-over {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .Game-over button {
+    font-size: 20px;
+    padding: 8px 12px;
+    margin: 5px;
   }
 }
