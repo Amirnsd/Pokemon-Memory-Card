@@ -68,31 +68,14 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+    .header-tags h2 {
+      font-size: 1.5rem;
+    }
 
-@media only screen and (max-width: 1200px) {
-    .container {
-      font-size: 28px;
-      padding: 3px 8px;
+    .start-again {
+      font-size: 0.9rem;
+      padding: 8px 15px;
     }
   }
   
-  @media only screen and (max-width: 900px) {
-    .container {
-      font-size: 24px;
-      padding: 2px 6px;
-    }
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .container {
-      font-size: 20px;
-      padding: 1px 4px;
-    }
-  }
-  
-  @media only screen and (max-width: 400px) {
-    .container {
-      font-size: 16px;
-      padding: 0px 2px;
-    }
-  }
