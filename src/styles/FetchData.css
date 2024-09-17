@@ -108,7 +108,20 @@ font-family: "Roboto Mono", monospace;
 
 
 
-
+@media only screen and (max-width: 600px) {
+    .pokemon-cards {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  
+    .pictures img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .pictures p {
+      font-size: 0.8rem;
+    }
+  }
 
 
 
