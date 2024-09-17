@@ -75,3 +75,17 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .headers h2 {
+      font-size: 1.5rem;
+    }
+  
+    .buttons button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }

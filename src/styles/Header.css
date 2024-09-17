@@ -35,3 +35,25 @@ font-family: "Press Start 2P", cursive;
   font-style: normal;
   color: #fff;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .score-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .score, .high-score {
+    font-size: 1rem;
+  }
+}
