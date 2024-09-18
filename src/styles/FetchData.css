@@ -145,7 +145,7 @@
   }
 
   .Game-over h2, h3{
-    
+    color: black;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
